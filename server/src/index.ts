@@ -14,7 +14,7 @@ const port = 3000
 const httpServer = createServer(app)
 const io = new Server<ClientToServerEvents, ServerToClientEvents>(httpServer, {
   cors: {
-    origin: import.meta.env.VITE_SOCKET_URL,
+    origin: "https://jackbox-quiz-app.up.railway.app",
     methods: ["GET", "POST"]
   }
 })
