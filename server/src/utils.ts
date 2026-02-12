@@ -9,7 +9,7 @@ const generateCharacter = () => {
   return String.fromCharCode(charIndex)
 }
 
-const generateRoomCode = (length: number = 4) => {
+export const generateRoomCode = (length: number = 4) => {
   const roomCode = Array.from({ length }, generateCharacter).join('')
   return roomCode
 }
