@@ -71,3 +71,7 @@ export default defineConfig([
   },
 ])
 ```
+
+## Env File
+
+To run this, add a `.env` file inside the `client/` folder, and add a valid value for `VITE_SOCKET_URL`. Locally, use: `http://localhost:3000`.
