@@ -10,5 +10,8 @@ export default defineConfig({
       '@shared': path.resolve(__dirname, '../shared'),
       "@": path.resolve(__dirname, "./src"),
     }
+  },
+  server: {
+    allowedHosts: ['jackbox-quiz-app.up.railway.app']
   }
 })
